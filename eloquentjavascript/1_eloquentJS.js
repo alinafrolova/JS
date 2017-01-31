@@ -6,7 +6,7 @@ function triangle(){
       hash= "#";
   while (i < j) {
     var newLi = document.createElement('li');
-    newLi.innerHTML= hash;
+    newLi.innerHTML= "№1Task: " + hash;
      list.appendChild(newLi);
      i++;
      hash = hash + "#";

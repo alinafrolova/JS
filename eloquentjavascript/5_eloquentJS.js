@@ -2,10 +2,14 @@
 Она должна принимать число и возвращать булевское значение. Потестируйте её на 50 и 75. Попробуйте задать ей -1.
  Почему она ведёт себя таким образом? Можно ли её как-то исправить?
    Источник: http://www.itmathrepetitor.ru/zadachi-po-javascript-iz-knigi-vyrazitelnyjj-javascript/*/
-function min (val1, val2){
+//Зачем здесь рекурсию использовать
+function isEven(N) {
   var newLi = document.createElement('li');
-    if (val1 < val2 ) {
-      newLi.innerHTML= val1;
-    }else{newLi.innerHTML= val2;}
- list.appendChild(newLi);
-   }
+  var even = N / 2;
+  if (isInteger(even)){ newLi.innerHTML= "№5Task: " + true; list.appendChild(newLi); return true;}
+  else     { newLi.innerHTML= "№5Task: " + false; list.appendChild(newLi); return false;}
+
+ }
+function isInteger(num) {
+  return (num ^ 0) === num;
+}

@@ -3,7 +3,7 @@
 а для чисел, делящихся на 5 (но не на 3) – ‘Buzz’.Когда сумеете – исправьте её так, чтобы она выводила «FizzBuzz»
 для всех чисел, которые делятся и на 3 и на 5.
    Источник: http://www.itmathrepetitor.ru/zadachi-po-javascript-iz-knigi-vyrazitelnyjj-javascript/*/
-function fizzBuzz (){
+function fizzBuzz(){
      var k = 101,
          three = 3,
          threetxt = "Fizz",
@@ -12,19 +12,18 @@ function fizzBuzz (){
   for (var i = 1; i < k; i++) {
     var newLi = document.createElement('li');
     if (isInteger(i/three)) {
-      newLi.innerHTML= threetxt;
+      newLi.innerHTML= "№2Task: " + threetxt;
       list.appendChild(newLi);
     }else {
       if (isInteger(i/five)) {
-        newLi.innerHTML= fivetxt;
+        newLi.innerHTML= "№2Task: " + fivetxt;
         list.appendChild(newLi);
       }else {
-        newLi.innerHTML= i;
+        newLi.innerHTML= "№2Task: " + i;
         list.appendChild(newLi);
             }
 
          }
-
   }
 }
 function isInteger(num) {

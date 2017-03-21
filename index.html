@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel = "stylesheet" href="css/style.css">
+    <style> 
+      h1{
+	     color: green;
+         }
+    </style>
+       
+    <script src="7ninja3.js"></script>
+    <script src="jquery-3.1.1.min.js"></script>
+   
+   
+</head>
+
+<body>
+
+<h1 id = "identifire"> The test exemple</h1>
+<p> Registration page </p>
+<a class = "link" href = "https://www.google.com.ua/"> Google </a>
+<a class = "link" href = "https://www.bingo.com.ua/"> Bingo </a>
+
+<form method = "get" action = "">
+<table border = "0" width = "400px" cellpadding = "5">
+
+  <tr >
+  	 <td rowspan = "2"> <h1 class = "text"> The own information</h1> </td>
+  	</tr>
+  <tr>
+  	<th> DataBase</th>
+   <td style = "color: blue;" colspan = "3" > Home </td> 
+   <td rowspan = "2" valign = "baseline" align = "center"> 
+   	<b>Photo client</b>
+   	<img src="http://i.telegraph.co.uk/multimedia/archive/03543/Narutos_selfie_344_3543114b.jpg" alt="Photo" width="170" height="130">
+   </td>  
+  </tr>
+
+
+    <tr >
+    <td align = "right" valign = "baseline" > Name  </td>
+    <td > <input type = "text" class = "form" name ="name" placeholder = "name">  </td>
+  </tr>  
+    <tr >
+  <tr >
+  	<td align = "right" valign = "top" > Surname  </td>
+    <td > <input type = "text" name ="surname" placeholder = "surname">  </td>
+  </tr>  
+
+  <tr >
+    <td align = "right" valign = "top"> e-mail  </td>
+    <td > <input type = "email" name ="email" placeholder = "e-mail">  </td>
+  </tr>
+
+  <tr>
+    <td align = "right" valign = "top"> password  </td>
+    <td > <input type = "password" name ="password" placeholder = "password">  </td>
+  </tr>
+
+  <tr >
+    <td align = "right" valign = "top"> confirm password  </td>
+    <td > <input type = "password" name ="confirmpassword" placeholder = "confirm password ">  </td>
+  </tr>
+  	<tr >
+  	 <td rowspan = "2"> <h1 class = "text"> The additional information</h1> </td>
+  	</tr>
+  <tr >
+      <td align = "right" valign = "top"> Add diferent photo  </td>
+      <td > <input type = "file">  </td>
+  </tr>
+
+   <tr >
+    <td align = "right" valign = "top"> Sex  </td>
+    <td > <input type = "radio" name="sex" checked> Male 
+          <input type = "radio" name="sex"> Female
+    </td>
+  </tr>
+
+  <tr >
+    <td align = "right" valign = "top"> Hobby  </td>
+    <td > 
+    	<select>
+          <option value = "1"> Sport </option>
+          <option value = "2"> Music</option>
+          <option value = "3"> Games</option>
+          <option value = "4"> Cars</option>
+         </select>
+    </td>
+     <td > 
+    	<select slice = "3" multiple>
+          <option> Sport</option>
+          <option> Music</option>
+          <option> Games</option>
+          <option> Cars</option>
+         </select>
+    </td>
+       <td > <b> 
+    	<select slice = "3" multiple>
+    		 <optgroup label="Hobby">
+          <option> Sport</option>
+          <option> Music</option>
+          <option> Games</option>
+          <option> Cars</option>
+      </optgroup >
+         </select></b>
+    </td>
+  </tr>
+ 
+<tr>
+   <td align = "right" valign = "top"> Which langauages do you know?  </td>
+   <td >  
+
+   	<input type = "checkbox" checked> English
+   	<input type = "checkbox" > Ukraine
+   	<input type = "checkbox" > Germany
+   	<input type = "checkbox" > Italy
+   </td>
+<tr>
+
+  <tr >
+    <td align = "right" valign = "top"><b> What do you think? </b> </td>
+    <td> 
+     <textarea> </textarea>
+    </td>
+  </tr>	
+
+  <tr>
+   <td colspan = "2" align = "left">
+   	<input type = "reset" value = "Clear">
+    <input type = "submit" value = "Add">
+   </td>
+  <tr>
+
+</table>
+<p class = "first-letter"> Additional information <br> if you need our helps</p>
+<ul> 
+  <li> Terms</li>
+  <li> Rules>
+  <li> FAQ </li>
+  <li> Contacts </li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+
+body{
+	/*background: #dddddd;*/ /*HEX задание звета*/
+	border: 2px;
+	line-height: 1.2; /*межстрочный интервал заданый числом*/
+	font-size: 12px; 	
+	background: url('../images/images.png');
+	background-size: cover;
+}
+
+
+p{
+	color: rgb(249, 201, 16); /RGB  10-ой системе задается 3 числами /
+	font-size: 1.2em; /*12 размер в боди умножает на 1.2*/
+	font-weight: 700;
+	width: 60%; /*тег р занимает 60% экрана*/
+
+
+}
+h1{
+	color: rgba(249, 201, 16, 0);/ *четвертый параметр прозрачность*/
+    font-size: 120% /*12 размер в боди умножает на 1.2*/
+
+}
+.text{
+	color: brown;
+}
+
+#identifire{
+	color: chocolate;
+}
+td b {
+	color: aqua; 
+	font-size: 110%
+}
+/**/
+.link {
+	
+	font-size: 18px
+     }
+
+/*линка не нажата , до первого перехода */
+.link:link {
+	color: aqua; 
+	font-size: 18px
+
+}
+/*при наведении меняет цвет*/
+.link:hover {
+	color: deepskyblue; 
+	
+	
+}
+/*при gjctotybb меняет цвет*/
+.link:visited {
+	color: red; 
+	
+	
+}
+/*при наведении меняет цвет*/
+.link:active {
+    color: green; 
+    
+    
+}
+.form:focus {
+    color: crimson; 
+    
+    
+}
+ul li:first-child{
+    color: darkorange; 
+    
+    
+}
+
+ul li:last-child{
+    color: crimson; 
+    
+    
+}
+ul li:nth-child(2){
+    color: red; 
+    
+    
+}
+.first-letter: first-letter {
+    font-size: 50px;
+    color: red; 
+    
+    
+}
+.first-letter: first-line {
+   
+    color: green; 
+    
+    
+}
+
+ul li:first-child{
+    color: darkorange; 
+    
+    
+}
+
+ul li:last-child{
+    color: crimson; 
+    
+    
+}
+ul li:nth-child(2){
+    color: red; 
+    
+    
+}
+.letter:first-letter {
+    font-size: 50px;
+    color: red; 
+     
+}
+.letter:first-line {
+   
+       color: green; 
+        
+}
+
+.pseudo:before,
+.pseudo:after{
+	content: '"';
+	font-family: Arial;
+	color: red;
+	font-size: 50px;
+};
+
+.new{
+	font-family: Arial, Helvetica, "Times New Roman", sans-serif;
+	font-style: italic;
+}
+
+
